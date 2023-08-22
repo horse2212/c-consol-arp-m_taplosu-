@@ -1,0 +1,26 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace çarpım_taplosu
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            for (int a = 0; a <=10; a++)
+            {
+                for (int i = 0; i <=10; i++)
+                {
+                    Console.WriteLine(a + "x" + i + "=" + (a * i));
+                }
+            }
+
+
+
+            Console.ReadLine();
+        }
+    }
+}
